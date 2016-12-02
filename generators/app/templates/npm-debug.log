@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\AppData\\nodejs\\node.exe',
+1 verbose cli   'D:\\AppData\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'link' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose linkPkg D:\wrksps\prjs\generator-quick-webpack\generators\app\templates
+5 verbose stack Error: Package must have a name field to be linked
+5 verbose stack     at D:\AppData\nvm\v6.9.1\node_modules\npm\lib\link.js:148:12
+5 verbose stack     at D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\read-package-json\read-json.js:356:5
+5 verbose stack     at checkBinReferences_ (D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\read-package-json\read-json.js:320:45)
+5 verbose stack     at final (D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\read-package-json\read-json.js:354:3)
+5 verbose stack     at then (D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+5 verbose stack     at ReadFileContext.<anonymous> (D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\read-package-json\read-json.js:295:20)
+5 verbose stack     at ReadFileContext.callback (D:\AppData\nvm\v6.9.1\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16)
+5 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:365:13)
+6 verbose cwd D:\wrksps\prjs\generator-quick-webpack\generators\app\templates
+7 error Windows_NT 10.0.14393
+8 error argv "D:\\AppData\\nodejs\\node.exe" "D:\\AppData\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "link"
+9 error node v6.9.1
+10 error npm  v3.10.8
+11 error Package must have a name field to be linked
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
