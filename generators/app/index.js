@@ -17,14 +17,15 @@ module.exports = yeoman.Base.extend({
       'index.js',
       'package.json',
       'webpack.config.js',
-      'yarn.lock'
-    ]
+      'yarn.lock',
+      '.babelrc'
+    ];
 
     for (var i = 0; i < files.length; i++) {
       this.fs.copy(
         this.templatePath(files[i]),
         this.destinationPath(files[i])
-      )
+      );
     }
   },
 

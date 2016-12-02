@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",

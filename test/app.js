@@ -12,7 +12,12 @@ describe('generator-quick-webpack:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      'index.html',
+      'index.js',
+      'package.json',
+      'webpack.config.js',
+      'yarn.lock',
+      '.babelrc'
     ]);
   });
 });
